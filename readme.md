@@ -2,12 +2,12 @@
 
 ### What is it? ###
 * A simple PHP class for working with LiveJournal posts through API
-* Requires PHP 5.6 or higher
 * Supports:
   * Posts reading
   * Post creating
   * Post edit
-  * Post deleting    
+  * Post deleting
+* Requires PHP 5.6 or higher
 
 ### How to use it? ###
 * See demo app in ./demo folder
