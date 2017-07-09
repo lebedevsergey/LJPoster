@@ -1,7 +1,7 @@
 # LJPoster #
 
 ### What is it? ###
-* A simple PHP class for working with LiveJournal posts through API
+* A simple PHP class for working with LiveJournal posts through LiveJournal API
 * Supports:
   * Posts reading
   * Post creating
