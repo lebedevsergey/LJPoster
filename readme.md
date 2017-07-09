@@ -7,7 +7,7 @@
   * Post creating
   * Post edit
   * Post deleting
-* Requires PHP 5.6 or higher
+* Requires PHP 5.6 or higher and PHPXMLRPC library
 
 ### How to use it? ###
 * See demo app in ./demo folder
