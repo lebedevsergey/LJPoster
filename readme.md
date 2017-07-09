@@ -1,7 +1,8 @@
 # LJPoster #
 
 ### What is it? ###
-*  A simple class for working with LiveJournal posts through API
+* A simple PHP class for working with LiveJournal posts through API
+* Requires PHP 5.6 or higher
 * Supports:
   * Posts reading
   * Post creating
