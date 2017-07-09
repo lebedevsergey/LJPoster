@@ -30,7 +30,7 @@ $c->deletePost($post1['itemid']);
 print_r($c->getPostById($res['itemid']));
 // by date
 print_r($c->getPostsForDate());
-// by number of last posts
+// get number of last posts
 print_r($c->getLastNPosts(2));
 ```
 
