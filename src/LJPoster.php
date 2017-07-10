@@ -305,7 +305,7 @@ class LJPoster
     {
         if (!isset($this->XMLRPCClient)) {
             $this->XMLRPCClient = new Client(self::API_URL, self::HOST);
-            // explicitly set accept encoding to plaintext because I had hard time debugging Perl/PHP deflate incompatibiltiy issues
+            // explicitly set HTTP answer accept encoding to plaintext after having hard time debugging Perl/PHP deflate incompatibilty issues
             $this->XMLRPCClient->accepted_compression = 'identity';
         }
 
