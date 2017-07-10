@@ -2,15 +2,15 @@
 // Copyright 2017 Sergey Lebedev
 // Licensed under the Apache License, Version 2.0
 
-require_once __DIR__.'/../src/LJPoster.php';
-use LJPoster\LJPoster;
+require_once __DIR__.'/../src/LJPostr.php';
+use LJPostr\LJPostr;
 
 $login = 'YOUR_LIVEJOURNAL_LOGIN';
 $password = 'YOUR_LIVEJOURNAL_PASSWORD';
 
-$c = new LJPoster($login, $password);
+$c = new LJPostr($login, $password);
 
-// you can create posts
+// you can create postsА
 $post1 = $c->createPost('test1', 'test1', \DateTime::createFromFormat('j-M-Y', '17-Feb-2022'), ['tag1', 'tag2']);
 $post2 = $c->createPost('test2', 'test2', \DateTime::createFromFormat('j-M-Y', '17-Feb-2022'), ['tag1', 'tag2'], ["opt_nocomments" => true, "opt_preformatted" => true]);
 

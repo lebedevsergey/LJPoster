@@ -2,7 +2,7 @@
 // Copyright 2017 Sergey Lebedev
 // Licensed under the Apache License, Version 2.0
 
-namespace LJPoster;
+namespace LJPostr;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
@@ -14,7 +14,7 @@ use PhpXmlRpc\Encoder;
 /**
  * a simple class for working with LiveJournal posts through API
  */
-class LJPoster
+class LJPostr
 {
     const HOST = 'www.livejournal.com';
     const API_URL = '/interface/xmlrpc';
