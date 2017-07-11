@@ -2,14 +2,11 @@
 
 ### What is it? ###
 * A simple PHP class for working with LiveJournal posts through LiveJournal API
-* Supports:
-  * Posts reading
-  * Post creating
-  * Post edit
-  * Post deleting
+* Supports posts reading, editing, creating and deleting
 * Requires PHP 5.6 or higher and PHPXMLRPC library
 
 ### How to use it? ###
+* Do not forget to run ```composer install```
 * See demo app in ./demo folder
 
 ```php
