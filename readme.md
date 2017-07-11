@@ -6,7 +6,7 @@
 * Requires PHP 5.6 or higher and PHPXMLRPC library
 
 ### How to use it? ###
-* Do not forget to run ```composer install```
+* Firstly - do not forget to run ```composer install```
 * See demo app in ./demo folder
 
 ```php
