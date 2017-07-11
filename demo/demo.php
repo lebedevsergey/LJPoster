@@ -2,13 +2,13 @@
 // Copyright 2017 Sergey Lebedev
 // Licensed under the Apache License, Version 2.0
 
-require_once __DIR__.'/../src/LJPostr.php';
-use LJPostr\LJPostr;
+require_once __DIR__.'/../src/LJPostio.php';
+use sunman\LJPostio;
 
 $login = 'YOUR_LIVEJOURNAL_LOGIN';
 $password = 'YOUR_LIVEJOURNAL_PASSWORD';
 
-$c = new LJPostr($login, $password);
+$c = new LJPostio($login, $password);
 
 // you can create postsА
 $post1 = $c->createPost('test1', 'test1', \DateTime::createFromFormat('j-M-Y', '17-Feb-2022'), ['tag1', 'tag2']);

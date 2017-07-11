@@ -1,4 +1,4 @@
-# LJPostr #
+# LJPostio #
 
 ### What is it? ###
 * A simple PHP class for working with LiveJournal posts through LiveJournal API
@@ -13,8 +13,8 @@
 * See demo app in ./demo folder
 
 ```php
-// create new LJPostr instance with your LiveJournal login and password
-$c = new LJPostr($login, $password);
+// create new LJPostio instance with your LiveJournal login and password
+$c = new LJPostio($login, $password);
 
 // you can create posts
 $post1 = $c->createPost('test1', 'test1', \DateTime::createFromFormat('j-M-Y', '17-Feb-2022'), ['tag1', 'tag2']);
